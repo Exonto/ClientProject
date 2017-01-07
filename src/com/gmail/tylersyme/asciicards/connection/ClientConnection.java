@@ -16,7 +16,7 @@ public class ClientConnection extends Thread
 	private Socket client;
 	private ObjectOutputStream output;
 	private ObjectInputStream input;
-	private String ipAddress = "localhost"; // External: 70.189.129.228
+	private String ipAddress = "localhost"; // Put external ip address here
 	private int port = 45552;
 	
 	public ClientConnection()
